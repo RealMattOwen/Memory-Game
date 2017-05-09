@@ -1,0 +1,27 @@
+{
+  "name": "memorygame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-sass": "^2.3.2",
+    "gulp": "^3.9.1",
+    "how-to-npm": "^2.4.2",
+    "node-sass": "^4.5.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "node-sass -w scss/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealMattOwen/Memory-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealMattOwen/Memory-Game/issues"
+  },
+  "homepage": "https://github.com/RealMattOwen/Memory-Game#readme"
+}

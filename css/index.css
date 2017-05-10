@@ -13,38 +13,43 @@ html, body {
   background-image: url("../images/bg-img.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  display: flex; }
-
-.game-container {
-  height: 80%;
-  width: 60%;
-  background-color: rgba(255, 255, 255, 0.3);
-  margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+  flex-wrap: wrap; }
 
-.cards {
-  height: 30%;
-  width: 20%;
-  background-color: rgba(0, 0, 0, 0.3);
-  margin: 1% 2%; }
+.scoreboard-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between; }
 
 .scoreboard {
   background-color: rgba(255, 255, 255, 0.3);
-  height: 10%;
-  width: 10%;
-  margin: auto;
+  width: 48%;
   text-align: center;
   font-family: Arial;
   display: flex;
-  align-items: center;
   justify-content: center; }
 
 .player1 > h4, .player2 > h4 {
   font-size: 1.25vw;
-  margin: auto 0;
   border-bottom: 2px solid black; }
 
 .player1 > p, .player2 > p {
   font-size: 2.50vw; }
+
+.game-container {
+  height: 84%;
+  width: 60%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.75% 0; }
+
+.cards {
+  height: 30%;
+  width: 17.5%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 1% 2%; }

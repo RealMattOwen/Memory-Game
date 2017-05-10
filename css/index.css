@@ -24,18 +24,23 @@ html, body {
 
 .scoreboard {
   background-color: rgba(255, 255, 255, 0.3);
-//width: 48%;
+  width: 48%;
   text-align: center;
-  font-family: Arial;
+  font-family: 'Open Sans Condensed', sans-serif;
+  
   display: flex;
   justify-content: center; }
 
 .player1 > h4, .player2 > h4 {
-  font-size: 1.25vw;
-  border-bottom: 2px solid black; }
+  font-size: 2vw;
+  font-weight: 300;
+  border-bottom: 1px solid #770e84;
+  color:#770e84;}
 
 .player1 > p, .player2 > p {
-  font-size: 2.50vw; }
+  font-size: 2.50vw;
+  font-weight: 000;
+  color:#770e84;}
 
 .game-container {
   height: 84%;

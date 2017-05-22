@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1600px) {
+  .cards {
+    height: 224px;
+    width: 184px; } }
+
+@media only screen and (max-width: 1500px) {
+  .cards {
+    height: 214px;
+    width: 174px; } }
+
+@media only screen and (max-width: 1400px) {
+  .cards {
+    height: 202px;
+    width: 162px; } }
+
+@media only screen and (max-width: 1300px) {
+  .cards {
+    height: 190px;
+    width: 150px; } }
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    flex-wrap: wrap; }
+  .scoreboard-container {
+    order: 0;
+    display: flex;
+    width: 80%;
+    height: 12%;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row; }
+  .scoreboard {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 48%;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%; }
+  .player1 > h4, .player2 > h4 {
+    font-size: 2vw;
+    font-weight: 300;
+    background: none;
+    margin-bottom: 0px; }
+  .player1 > p, .player2 > p {
+    font-size: 3vw;
+    font-weight: 300;
+    background: none; }
+  .game-container {
+    height: 84%;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.75% 0; }
+  .cards {
+    height: 220px;
+    width: 180px; } }
+
+@media only screen and (max-width: 1080px) {
+  .cards {
+    height: 210px;
+    width: 170px; } }
+
+@media only screen and (max-width: 1030px) {
+  .cards {
+    height: 190px;
+    width: 150px; } }
+
+@media only screen and (max-width: 900px) {
+  .cards {
+    height: 170px;
+    width: 130px; } }
+
+@media only screen and (max-width: 780px) {
+  .cards {
+    height: 150px;
+    width: 110px; } }
+
+@media only screen and (max-width: 768px) {
+  .cards {
+    height: 140px;
+    width: 100px; } }
+
+@media only screen and (max-width: 767px) {
+  .scoreboard-container {
+    height: 6%;
+    flex-direction: column;
+    margin-bottom: 0%; }
+  .scoreboard {
+    width: 100%; }
+  .cards {
+    height: 70px;
+    width: 30px; } }
